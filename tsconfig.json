@@ -12,7 +12,5 @@
 		"sourceMap": true,
 		"moduleResolution": "node",
 		"esModuleInterop": true
-	},
-	"include": ["src/**/*.ts", "tests/getGreeting.spec.ts"],
-	"exclude": ["node_modules", "src/**/*.spec.ts"]
+	}
 }

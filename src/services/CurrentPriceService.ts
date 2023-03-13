@@ -6,6 +6,10 @@ import BigNumber from 'bignumber.js';
 //types
 import { CoinGeckoPriceData, PriceData } from '../types';
 
+/**
+ * Gets the current live prices from coingecko API
+ * @returns {Promise<PriceData>}
+ */
 const getCurrentPrices = async () => {
 	const coinMap: { [key: string]: string } = { bitcoin: 'BTC', ethereum: 'ETH', dogecoin: 'DOGE' };
 	const response = await axios.get(coinGeckoApiUrl, { params });
