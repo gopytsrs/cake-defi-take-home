@@ -1,5 +1,5 @@
 import readline from 'readline';
-import Parser from './parse';
+import Parser from './lib/parse';
 
 const readLines = async () => {
 	const rl = readline.createInterface({

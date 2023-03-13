@@ -1,11 +1,11 @@
 //config
-import { coins } from './config';
+import { coins } from '../config';
 //libs
 import BigNumber from 'bignumber.js';
 //services
-import CurrentPriceService from './CurrentPriceService';
+import CurrentPriceService from '../services/CurrentPriceService';
 //types
-import { PriceData } from './types';
+import { PriceData } from '../types';
 
 class Parser {
 	prices: PriceData;

@@ -1,10 +1,10 @@
 //config
-import { coinGeckoApiParams as params, coinGeckoApiUrl } from './config';
+import { coinGeckoApiParams as params, coinGeckoApiUrl } from '../config';
 //lib
 import axios from 'axios';
 import BigNumber from 'bignumber.js';
 //types
-import { CoinGeckoPriceData, PriceData } from './types';
+import { CoinGeckoPriceData, PriceData } from '../types';
 
 const getCurrentPrices = async () => {
 	const coinMap: { [key: string]: string } = { bitcoin: 'BTC', ethereum: 'ETH', dogecoin: 'DOGE' };
