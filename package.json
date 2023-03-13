@@ -8,7 +8,7 @@
 		"lint": "eslint . --ext .ts",
 		"dev": "ts-node-dev --respawn ./src/index.ts < ./data/input.txt",
 		"start": "ts-node ./src/index.ts < ./data/input.txt",
-		"test": "jest"
+		"test": "jest --coverage --silent"
 	},
 	"keywords": [],
 	"author": "",
